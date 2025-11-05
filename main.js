@@ -12,8 +12,7 @@ const api = { id:1,
               edad:'20',
               email:'pepito@gmail.com'             
             }
-/* const api =[]
- */
+
 /*EVENTOS*/
 formulario.addEventListener('submit',(evento)=>{
     getUsuario(api)
@@ -22,8 +21,6 @@ formulario.addEventListener('submit',(evento)=>{
     evento.preventDefault();
 })   
     
-
-
 // FUNCIONES    
 
 const mostrarPantalla=(nombre,correo)=>{
